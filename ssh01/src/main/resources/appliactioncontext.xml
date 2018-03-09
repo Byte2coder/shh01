@@ -21,11 +21,22 @@
   <!--  注入数据源-->
    <property name="dataSource" ref="dataSource"></property>
   <!-- 指定配置文件位置 -->
-   <property name="configLocations" >
-       <array>
-         <value>classpath:hibernate.cfg.xml</value>
-       </array>
+   <property name="hibernateProperties" >
+      <props>
+          <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+          <prop key="hibernate.hbm2ddl.auto">update</prop>
+          <prop key="hibernate.show_sql">true</prop>
+          <prop key="hibernate.format_sql">true</prop>
+          <prop key="hibernate.connection.isolation">4</prop>
+      
+      </props>
    </property>
+   <property name="mappingResources">
+      <array>
+         <value>com/itheima/ssh01/domain/User.hbm.xml</value>
+      </array>
+   </property>
+   
 </bean>
 
 
