@@ -5,11 +5,11 @@
     <artifactId>ssh02</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>ssh02_dao</artifactId>
+  <artifactId>ssh02_service</artifactId>
   <dependencies>
   	<dependency>
   		<groupId>com.itheima</groupId>
-  		<artifactId>ssh02_domain</artifactId>
+  		<artifactId>ssh02_dao</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
   </dependencies>

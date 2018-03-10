@@ -4,7 +4,6 @@
   <artifactId>ssh02</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <description>聚合子模块,统一管理依赖</description>
 
 <!-- 属性 -->
 	<properties>
@@ -127,8 +126,7 @@
 	</build>
 	<modules>
 		<module>ssh02_domain</module>
-		<module>shh02_dao</module>
-		<module>ssh02_service</module>
 		<module>ssh02_dao</module>
+		<module>ssh02_service</module>
 	</modules>
 </project>
