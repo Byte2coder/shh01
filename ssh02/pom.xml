@@ -129,5 +129,6 @@
 		<module>ssh02_domain</module>
 		<module>shh02_dao</module>
 		<module>ssh02_service</module>
+		<module>ssh02_dao</module>
 	</modules>
 </project>
