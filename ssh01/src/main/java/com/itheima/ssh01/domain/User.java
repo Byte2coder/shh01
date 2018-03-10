@@ -14,6 +14,7 @@ public class User {
     public void setId(Integer id) {
         this.id = id;
     }
+  
     public String getUsername() {
         return username;
     }
